@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(150, 231, 129);
+}
+.my-form{
+    border: 5px solid rgb(0, 68, 255);
+    padding: 30px;
+    height: 520px;
+    width: 250px;
+    margin: auto;
+    background-color: aqua;
+    
+}
+.my-div{
+    padding: 10px;
+
+}
