@@ -1,0 +1,31 @@
+.container{
+    width: 900px;
+    height: 700px;
+    background-color: red;
+    border: 2px black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr);
+    gap: 10px;
+}
+.items{
+    border: 3px solid sandybrown;
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    background-color:grey;
+}
+.div-a{
+    grid-column: 1/span 2;
+}
+.div-b{
+    grid-column: 3/ span 1;
+    grid-row: 1/ span 2;
+}
+.div-c{
+    grid-column: 1/span 1;
+}
+.div-d{
+    grid-column: 2/span 1;
+}
